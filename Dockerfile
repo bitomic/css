@@ -50,4 +50,4 @@ RUN chown node:node /home/node/app
 USER node
 
 ENV CI=
-CMD [ "doppler", "run", "--", "yarn", "node", "build" ]
+CMD [ "yarn", "node", "build" ]
