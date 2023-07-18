@@ -2940,23 +2940,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"perfectionist-dfd@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "perfectionist-dfd@npm:3.0.1"
+"perfectionist-dfd@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "perfectionist-dfd@npm:3.0.2"
   dependencies:
     defined: ^1.0.0
     minimist: ^1.2.6
     postcss-scss: ^4.0.3
     postcss-value-parser: ^4.2.0
     read-file-stdin: ^0.2.1
-    semver: ^7.3.5
+    semver: ^7.5.4
     string.prototype.repeat: ^1.0.0
     write-file-stdout: ^0.0.2
   peerDependencies:
     postcss: ^8.4.12
   bin:
     perfectionist-dfd: bin/cmd.js
-  checksum: 894e2721400f06169b6f175e59dde49507dc8e2b0a04c71dba59a6da1515ac80a1aafe02ae363cef1096cef46d53ac28a7e5ec558e0f74d2a41ee5a446989fcd
+  checksum: dfbedcbdae2e1d43a2c549efc9eb01c788dfc0bca425b39f2bc2df4b7c30e75c96dbae1b298fc954e05a136a7b9557d6fecc820433e48a0858822edb1fb4ca38
   languageName: node
   linkType: hard
 
@@ -3425,6 +3425,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.5.4":
+  version: 7.5.4
+  resolution: "semver@npm:7.5.4"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 12d8ad952fa353b0995bf180cdac205a4068b759a140e5d3c608317098b3575ac2f1e09182206bf2eb26120e1c0ed8fb92c48c592f6099680de56bb071423ca3
+  languageName: node
+  linkType: hard
+
 "set-blocking@npm:^2.0.0":
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
@@ -3813,7 +3824,7 @@ __metadata:
     css-tree: ^2.3.1
     eslint: ^8.28.0
     eslint-plugin-svelte3: ^4.0.0
-    perfectionist-dfd: ^3.0.1
+    perfectionist-dfd: ^3.0.2
     postcss: ^8.4.21
     postcss-discard-empty: ^6.0.0
     prettier: ^2.8.7
