@@ -523,10 +523,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/css-tree@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "@types/css-tree@npm:2.3.1"
-  checksum: ba8db6f7c15e5bb5069fca55ff8407cb269d5b375f819f89faf98b7ad17acaf7f1d5467a414009bca270418b8082ad9efc3642ea8d39d368f1bb99d5be91f3f0
+"@types/css-tree@npm:^2.3.7":
+  version: 2.3.7
+  resolution: "@types/css-tree@npm:2.3.7"
+  checksum: e13d526e7c0b4d881cddf759e111843bf4127701218141e68709d666ccf01b5ed1dd805697e577225b76471590295a10c7673d19741be26f67610a3acb0ed532
   languageName: node
   linkType: hard
 
@@ -3806,7 +3806,7 @@ __metadata:
     "@playwright/test": ^1.28.1
     "@sveltejs/adapter-node": ^1.2.3
     "@sveltejs/kit": ^1.5.0
-    "@types/css-tree": ^2.3.1
+    "@types/css-tree": ^2.3.7
     "@types/prettier": ^2.7.2
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0
