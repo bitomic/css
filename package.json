@@ -17,7 +17,7 @@
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/kit": "^1.5.0",
 		"@types/css-tree": "^2.3.1",
-		"@types/prettier": "^2.7.2",
+		"@types/prettier": "^3.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"eslint": "^8.28.0",
@@ -40,6 +40,6 @@
 		"perfectionist-dfd": "^3.0.1",
 		"postcss": "^8.4.21",
 		"postcss-discard-empty": "^6.0.0",
-		"prettier": "^2.8.7"
+		"prettier": "^3.3.3"
 	}
 }
