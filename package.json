@@ -38,7 +38,7 @@
 		"@sveltejs/adapter-node": "^1.2.3",
 		"css-tree": "^2.3.1",
 		"perfectionist-dfd": "^3.0.1",
-		"postcss": "^8.4.21",
+		"postcss": "^8.4.47",
 		"postcss-discard-empty": "^6.0.0",
 		"prettier": "^2.8.7"
 	}
