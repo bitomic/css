@@ -2983,12 +2983,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-discard-empty@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "postcss-discard-empty@npm:6.0.0"
+"postcss-discard-empty@npm:^8.0.5":
+  version: 8.0.5
+  resolution: "postcss-discard-empty@npm:8.0.5"
   peerDependencies:
-    postcss: ^8.2.15
-  checksum: 0d6cc604719d4a70569db77de75e60b3b7e9b99a4521879f6047d71325556e9f46d6bd13aecbbd857c35f075c503c1f8b1be442329fb8e9653c24cbf2fb42f3e
+    postcss: ^8.5.26
+  checksum: 86bb12907dab9e80f4f13074794f17a54ca6e4b4616afd1fae3982b058ce79f7d0c74a223a2d855546c8b01fda3aea39f1fd79df86b5aa1891e7dba07c68153b
   languageName: node
   linkType: hard
 
@@ -3815,7 +3815,7 @@ __metadata:
     eslint-plugin-svelte3: ^4.0.0
     perfectionist-dfd: ^3.0.1
     postcss: ^8.4.21
-    postcss-discard-empty: ^6.0.0
+    postcss-discard-empty: ^8.0.5
     prettier: ^2.8.7
     pug: ^3.0.2
     sass: ^1.59.3
