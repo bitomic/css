@@ -46,6 +46,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/css-tokenizer@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "@csstools/css-tokenizer@npm:4.0.2"
+  checksum: dde9afeecb6072ed20ff78b7ef67ab34ad6645679b431aae024b1b96c8957027b734721987d97d9abb5ddc45141358fb804f2849c862f5d368418d32861c4315
+  languageName: node
+  linkType: hard
+
 "@esbuild/android-arm64@npm:0.16.17":
   version: 0.16.17
   resolution: "@esbuild/android-arm64@npm:0.16.17"
@@ -1159,6 +1166,17 @@ __metadata:
     mdn-data: 2.0.30
     source-map-js: ^1.0.1
   checksum: 493cc24b5c22b05ee5314b8a0d72d8a5869491c1458017ae5ed75aeb6c3596637dbe1b11dac2548974624adec9f7a1f3a6cf40593dc1f9185eb0e8279543fbc0
+  languageName: node
+  linkType: hard
+
+"cssnano-utils@npm:^8.2.1":
+  version: 8.2.1
+  resolution: "cssnano-utils@npm:8.2.1"
+  dependencies:
+    "@csstools/css-tokenizer": ^4.0.2
+  peerDependencies:
+    postcss: ^8.5.29
+  checksum: 1c7a9ab7541d3871f438bcb4c19483566067c46dac9ac485a4d3363f893d014e950ed5407dce9f1418094705f445e9780e0d899770f1717048de9b8de5aa887c
   languageName: node
   linkType: hard
 
@@ -2983,12 +3001,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-discard-empty@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "postcss-discard-empty@npm:6.0.0"
+"postcss-discard-empty@npm:^9.0.7":
+  version: 9.0.7
+  resolution: "postcss-discard-empty@npm:9.0.7"
+  dependencies:
+    cssnano-utils: ^8.2.1
   peerDependencies:
-    postcss: ^8.2.15
-  checksum: 0d6cc604719d4a70569db77de75e60b3b7e9b99a4521879f6047d71325556e9f46d6bd13aecbbd857c35f075c503c1f8b1be442329fb8e9653c24cbf2fb42f3e
+    postcss: ^8.5.29
+  checksum: 323123ad6877d8e17ba580e1fb869966e87a7649aa1e2e762b0232978522368eaba317fd80ad197cbcf5cd22bd889b890a1563ba5c9d5ca24bde31961aefa8f9
   languageName: node
   linkType: hard
 
@@ -3815,7 +3835,7 @@ __metadata:
     eslint-plugin-svelte3: ^4.0.0
     perfectionist-dfd: ^3.0.1
     postcss: ^8.4.21
-    postcss-discard-empty: ^6.0.0
+    postcss-discard-empty: ^9.0.7
     prettier: ^2.8.7
     pug: ^3.0.2
     sass: ^1.59.3
